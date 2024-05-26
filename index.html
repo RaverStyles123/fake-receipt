@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receipt Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Receipt Generator</h1>
+  <form id="receipt-form">
+    <label for="sender-name">Sender's Name:</label>
+    <input type="text" id="sender-name" name="sender-name"><br><br>
+    <label for="sender-account">Sender's Account Number:</label>
+    <input type="text" id="sender-account" name="sender-account"><br><br>
+    <label for="recipient-name">Recipient's Name:</label>
+    <input type="text" id="recipient-name" name="recipient-name"><br><br>
+    <label for="recipient-account">Recipient's Account Number:</label>
+    <input type="text" id="recipient-account" name="recipient-account"><br><br>
+    <input type="submit" value="Generate Receipt">
+  </form>
+
+  <div id="receipt-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
